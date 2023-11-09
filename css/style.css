@@ -29,12 +29,20 @@ h1,h2,h3,h4,h5,h6 {
     display: block; 
     border-radius: 40px;
     
-    font-size: 87px;
+    font-size: 8vw; 
+
+    white-space: nowrap; /* Ensures the text doesn't wrap */
+    overflow: hidden; /* Keeps the text from overflowing */
+    text-overflow: ellipsis; /* Adds an ellipsis (...) if text is too long */
 
     padding-top: 20px;
     padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    /* To ensure that the text is always visible and doesn't become too small, 
+       you might want to set a minimum font size. */
+    min-font-size: 16px;
 }
 
 a {
@@ -85,7 +93,7 @@ section {
 }
 
 .intro h6 {
-    color: var(--brand);
+    color: var(--body);
 }
 
 .intro p {

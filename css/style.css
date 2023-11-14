@@ -233,14 +233,19 @@ section {
 }
 
 .card-spacing {
-    margin-left: 10px;
+    /* margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 20px; */
+    display: flex;
     margin-bottom: 20px;
 }
 
-.bottom-card {
-    margin-bottom: 0px;
+.card {
+    width: 100%; /* Set width to 100% of the flex container */
+    /* Optional: Set a fixed height */
+    height: 100%; /* Use this to make cards of equal height */
 }
+
 
 .txt {
     padding-top: 15px;

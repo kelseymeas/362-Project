@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&display=swap');
 
 :root {
     --bg1: #f5f5f5; /* Light Gray */
@@ -23,13 +24,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .display-3 {
-    font-family: 'Lobster', sans-serif;
+    /* font-family: 'Lobster', sans-serif; */
+    font-family: 'Playfair Display SC', serif;
     background: var(--brand); 
     color: black; 
     display: inline; 
     border-radius: 40px;
     
-    font-size: 8vw; 
+    font-size: 6vw; 
 
     white-space: nowrap; /* Ensures the text doesn't wrap */
     overflow: hidden; /* Keeps the text from overflowing */
@@ -70,8 +72,13 @@ a:hover {
     transition: all 0.4s ease;
 }
 
+.link-more:hover {
+    color: black
+}
+
 .link-more:hover .icon {
     transform: translateX(8px);
+    color: black
 }
 
 img {
@@ -213,6 +220,25 @@ section {
     margin-top: 18px;
     margin-bottom: 18px;
 }
+
+.custom-rounded {
+    border-bottom-left-radius: 0.9rem;  /* Use the same radius as your card */
+    border-bottom-right-radius: 0.9rem; /* Use the same radius as your card */
+    border: 1px solid #d3d3d3;
+    background-color: rgb(233, 235, 235);
+}
+
+.card-spacing {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.txt {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
 
 
 /* REVIEWS */

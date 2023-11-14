@@ -211,6 +211,10 @@ section {
     background: var(--bg2);
 }
 
+#service-1 {
+    background: var(--bg1);
+}
+
 #services .service .content {
     padding: 32px;
 
@@ -232,6 +236,10 @@ section {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
+}
+
+.bottom-card {
+    margin-bottom: 0px;
 }
 
 .txt {
@@ -273,7 +281,6 @@ section {
 
 
 /* PORTFOLIO */
-
 .carousel-image {
     height: 100vh;
     align-items: center;

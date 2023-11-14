@@ -22,6 +22,10 @@ h1,h2,h3,h4,h5,h6 {
     color: black;
 }
 
+.title-space h1 {
+    color: black;
+}
+
 .display-3 {
     font-family: 'Lobster', sans-serif;
     background: var(--brand); 
